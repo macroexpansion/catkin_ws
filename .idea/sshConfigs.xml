@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="172.16.30.249" id="71b1cbf8-1f3c-4efb-94bb-2e7aa9d73ef6" port="22" customName="xe to" nameFormat="CUSTOM" username="cros">
+        <option name="customName" value="xe to" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="172.16.30.246" id="c9746197-c4c8-4d18-969c-f0c5cf1bb09f" port="22" customName="xe con" nameFormat="CUSTOM" username="cros">
+        <option name="customName" value="xe con" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

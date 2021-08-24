@@ -1,0 +1,8 @@
+prefix=/home/cuongnq23/PycharmProjects/Robotics/catkin_ws/install
+
+Name: crbot_navigation
+Description: Description of crbot_navigation
+Version: 1.2.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

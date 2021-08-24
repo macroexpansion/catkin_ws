@@ -1,0 +1,8 @@
+prefix=/home/cuongnq23/PycharmProjects/Robotics/catkin_ws/install
+
+Name: aruco
+Description: Description of aruco
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

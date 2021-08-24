@@ -1,0 +1,17 @@
+<launch>
+    <!-- start front camera node -->
+<!--     <include file="$(find realsense2_camera)/launch/rs_camera.launch"> -->
+<!--         <arg name="camera" value="camera_front"/> -->
+<!--         <arg name="serial_no" value="040322071708"/> -->
+<!--         <arg name="align_depth" value="true"/> -->
+<!--         <arg name="json_file_path" default="$(find crbot_warehouse_bringup)/param/realsense/emitter_off.json"/> -->
+<!--     </include> -->
+
+    <include file="$(find realsense2_camera)/launch/includes/nodelet.launch.xml">
+      <arg name="device_type"           value="t265"/>
+      <arg name="serial_no"             value="908412110479"/>
+      <arg name="enable_fisheye2"       value="true"/>
+      <arg name="enable_fisheye1"       value="true"/>
+    </include>
+
+</launch>

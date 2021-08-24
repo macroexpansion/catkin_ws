@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="78dcadf1-0f9f-46c0-b8f1-226d989aabb6" name="cros1">
+        <fileTransfer accessType="SFTP" host="172.16.30.246" port="22" sshConfigId="c9746197-c4c8-4d18-969c-f0c5cf1bb09f" sshConfig="xe con">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="c868d484-8166-4945-81fd-f653ec1b0caa" name="cros2">
+        <fileTransfer accessType="SFTP" host="172.16.30.249" port="22" sshConfigId="71b1cbf8-1f3c-4efb-94bb-2e7aa9d73ef6" sshConfig="xe to">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

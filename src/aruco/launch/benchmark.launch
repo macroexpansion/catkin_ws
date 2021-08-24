@@ -1,0 +1,6 @@
+<launch>
+    <!-- Turtlesim Node-->
+    <node pkg="aruco" type="detect_3aruco.py" name="detect_markers" output="screen"/>
+    <node pkg="aruco" type="static.py" name="static" output="screen">
+    </node>
+</launch>

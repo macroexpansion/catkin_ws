@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>crbot_navigation</name>
+  <version>1.2.5</version>
+  <description>
+    The crbot_navigation provides roslaunch scripts for starting the navigation.
+  </description>
+  <license>Apache 2.0</license>
+  <author>Trung Kien</author>
+  <maintainer email="kienlt11@viettel.com.vn">Trung Kien</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>amcl</exec_depend>
+  <exec_depend>map_server</exec_depend>
+  <exec_depend>move_base</exec_depend>
+  <!-- <exec_depend>crbot_bringup</exec_depend> -->
+</package>

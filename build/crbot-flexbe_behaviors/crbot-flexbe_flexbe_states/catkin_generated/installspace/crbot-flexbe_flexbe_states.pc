@@ -1,0 +1,8 @@
+prefix=/home/cuongnq23/PycharmProjects/Robotics/catkin_ws/install
+
+Name: crbot-flexbe_flexbe_states
+Description: Description of crbot-flexbe_flexbe_states
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lcrbot-flexbe_flexbe_states
+Requires: 
